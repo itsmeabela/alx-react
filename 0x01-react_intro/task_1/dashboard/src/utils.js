@@ -1,3 +1,4 @@
+
 const getFullYear = () => {
 	let current_year = new Date().getFullYear();
 	return current_year;
@@ -15,4 +16,3 @@ module.exports = {
 	getFooterCopy,
 	getFullYear,
 };
-
